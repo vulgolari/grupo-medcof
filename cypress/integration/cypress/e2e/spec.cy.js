@@ -7,7 +7,7 @@ describe('Teste de interface do Grupo Medcof', () => {
     cy.url().should('include', '/home/#cursos-section');
   });
 
-  it('Verifica a navegação até a seção de cursos', () => {
+  it('Navegação até a seção de cursos', () => {
     cy.url().should('include', '/home/#cursos-section');
   });
 
